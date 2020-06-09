@@ -1,7 +1,5 @@
 import React from 'react';
 import Card from "react-bootstrap/Card"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
 import * as content from "./content.json"
 import Container from "react-bootstrap/Container"
 import Image from "react-bootstrap/Image";
@@ -17,7 +15,7 @@ function App() {
   const contentJSX = content.default.map((section) => {
     const sectionName = Object.keys(section)[0]
     const sectionCards = section[sectionName].map((item) => 
-      <Card key={item.title} className="mb-4" style={{ width: "18rem"}}>
+      <Card key={item.title}>
         <Card.Body>
           <Card.Title>{item.title}</Card.Title>
           <Card.Subtitle className="text-muted">
@@ -34,10 +32,10 @@ function App() {
       </Card>
     )
     return (
-      <>
-        <h6 className="mt-2"> {sectionName} </h6>
+      <div key={sectionName}>
+        <h6> {sectionName} </h6>
         {sectionCards}
-      </>
+      </div>
     )
   })
   return (
@@ -54,7 +52,7 @@ function App() {
         >
           <Image src={Richard} style={{ height: "30vh" }} rounded />
         </div>
-        <Card  style={{ width: "18rem", borderWidth: 0 }}>
+        <Card style={{ borderWidth: 0 }}>
           <Card.Body style={{ paddingLeft: 0}}>
             <Card.Text>
               Hi, I'm <strong>Richard</strong>! I'm a fungi. My favorite player is Kawhi Leonard who is also a fungi.

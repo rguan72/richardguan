@@ -5,7 +5,7 @@
                 "title": "University of Michigan",
                 "subtitle": "B.S.E Computer Science, '22",
                 "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "dates": "September 2018 - May 2022"
+                "dates": "September 2018 - Present"
             }
         ]
     },
@@ -20,7 +20,8 @@
             {
                 "title": "Larky",
                 "subtitle": "Software Engineering Intern",
-                "text": "Some quick example text to build on the card title and make up the bulk of the card's content."
+                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "dates": "May 2019 - August 2019"
             }
         ]
     },
@@ -31,6 +32,16 @@
                 "subtitle": "Web Games",
                 "text":"Some quick example text to build on the card title and make up the bulk of the card's content.",
                 "link": "https://codenames.co"
+            }
+        ]
+    },
+    {
+        "Student Organizations": [
+            {
+                "title": "180 Degrees Consulting",
+                "subtitle": "Consulting Club",
+                "text": "Consulted for nonprofit microfinance company and Russian fast mover consumer goods company",
+                "dates": "January 2020 - Present"
             }
         ]
     }

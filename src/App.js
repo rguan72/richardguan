@@ -2,6 +2,7 @@ import React from 'react';
 import Card from "react-bootstrap/Card"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import * as content from "./content.json"
 import Container from "react-bootstrap/Container"
 import Image from "react-bootstrap/Image";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,9 +13,35 @@ import github from "./github.png"
 import './App.css';
 
 function App() {
+  console.log(content)
+  const contentJSX = content.default.map((section) => {
+    const sectionName = Object.keys(section)[0]
+    const sectionCards = section[sectionName].map((item) => 
+      <Card key={item.title} className="mb-4" style={{ width: "18rem"}}>
+        <Card.Body>
+          <Card.Title>{item.title}</Card.Title>
+          <Card.Subtitle className="text-muted">
+            {item.subtitle}
+          </Card.Subtitle>
+          <Card.Text>
+            {item.text}
+          </Card.Text>
+          {item.link && <Card.Link href={item.link}>View</Card.Link>}
+          <Card.Text>
+            <small className="text-muted">{item.dates}</small>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    )
+    return (
+      <>
+        <h6 className="mt-2"> {sectionName} </h6>
+        {sectionCards}
+      </>
+    )
+  })
   return (
     <>
-      {/* Curved Image */}
       <Container fluid style={{ justifyContent: "flex-start" }}>
         <div
           style={{
@@ -27,73 +54,14 @@ function App() {
         >
           <Image src={Richard} style={{ height: "30vh" }} rounded />
         </div>
-        <Card style={{ width: "18rem", marginBottom: "3vh", borderWidth: 0 }}>
+        <Card  style={{ width: "18rem", borderWidth: 0 }}>
           <Card.Body style={{ paddingLeft: 0}}>
             <Card.Text>
               Hi, I'm <strong>Richard</strong>! I'm a fungi. My favorite player is Kawhi Leonard who is also a fungi.
             </Card.Text>
           </Card.Body>
         </Card>
-        <h6 style={{ marginTop: "5vh" }}> Work Experience </h6>
-          <Card style={{ width: "18rem", marginBottom: "3vh" }}>
-            <Card.Body>
-              <Card.Title>Uber</Card.Title>
-              <Card.Subtitle>
-                Eater Home Feed
-              </Card.Subtitle>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "18rem", textAlign: "left" }}>
-            <Card.Body>
-              <Card.Title>University of Michigan</Card.Title>
-              <Card.Subtitle>
-                Computer Science, '22
-              </Card.Subtitle>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        <h6 style={{ marginTop: "5vh" }}> Courses </h6>
-          <Card
-            style={{ width: "18rem", textAlign: "left", marginBottom: "3vh" }}
-          >
-            <Card.Body>
-              <Card.Title>Operating Systems</Card.Title>
-              <Card.Subtitle>EECS 482</Card.Subtitle>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "18rem", textAlign: "left" }}>
-            <Card.Body>
-              <Card.Title>Operating Systems</Card.Title>
-              <Card.Subtitle>EECS 482</Card.Subtitle>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        <h6 style={{ marginTop: "5vh" }}> Projects </h6>
-          <Card style={{ width: "18rem", textAlign: "left" }}>
-            <Card.Body>
-              <Card.Title>Codenames</Card.Title>
-              <Card.Subtitle>Web</Card.Subtitle>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-              <Card.Link href="http://codenames.co">View</Card.Link>
-            </Card.Body>
-          </Card>
+        {contentJSX}
         <h6 style={{ marginTop: "5vh" }}> Contact </h6>
         <div style={{ display: "inline-block", textAlign: "left"}}>
           <a

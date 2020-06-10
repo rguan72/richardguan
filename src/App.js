@@ -15,7 +15,7 @@ function App() {
   const contentJSX = content.default.map((section) => {
     const sectionName = Object.keys(section)[0]
     const sectionCards = section[sectionName].map((item) => 
-      <Card key={item.title}>
+      <Card className="mb-3 cardDesktop">
         <Card.Body>
           <Card.Title>{item.title}</Card.Title>
           <Card.Subtitle className="text-muted">
@@ -34,21 +34,21 @@ function App() {
     return (
       <div key={sectionName}>
         <h6> {sectionName} </h6>
-        {sectionCards}
+        <div className="sectionDesktop">{sectionCards}</div>
       </div>
     )
   })
   return (
     <>
-      <Container fluid style={{ justifyContent: "flex-start" }}>
+      <Container fluid style={{ justifyContent: "flex-start" }} className="mlDesktop">
         <div
           style={{
             alignItems: "flex-start",
             justifyContent: "flex-start",
             display: "flex",
             flexDirection: "row",
-            marginTop: 15
           }}
+          className="mTop"
         >
           <Image src={Richard} style={{ height: "30vh" }} rounded />
         </div>

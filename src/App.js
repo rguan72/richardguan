@@ -55,7 +55,7 @@ function App() {
         <Card style={{ borderWidth: 0 }}>
           <Card.Body style={{ paddingLeft: 0}}>
             <Card.Text>
-              Hi, I'm <strong>Richard</strong>! I'm a fungi. My favorite player is Kawhi Leonard who is also a fungi.
+              Hi, I'm <strong>Richard</strong>! I'm a junior Computer Science major at the University of Michigan and a fungi.
             </Card.Text>
           </Card.Body>
         </Card>

@@ -1,18 +1,19 @@
 @media only screen and (min-width: 1000px) {
  .cardDesktop {
-   max-width: 30vw;
    margin-right: 2vw;
+   flex-basis: 30%;
  }
 
  .sectionDesktop {
    display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
  }
 
  .mlDesktop {
   padding-left: 2vw;
  }
-
+ 
  .mTop {
    margin-top: 2vw !important;
  }

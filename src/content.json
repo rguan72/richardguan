@@ -18,10 +18,50 @@
                 "dates": "May 2020 - August 2020"
             },
             {
+                "title": "Kare",
+                "subtitle": "Co-Founder & Director of Engineering",
+                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "dates": "March 2020 - Present"
+            },
+            {
                 "title": "Larky",
                 "subtitle": "Software Engineering Intern",
                 "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
                 "dates": "May 2019 - August 2019"
+            },
+            {
+                "title": "Crowds and Machines Lab",
+                "subtitle": "Undergraduate Researcher",
+                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "dates": "March 2019 - January 2020"
+            }
+        ]
+    },
+    {
+        "Courses": [
+            {
+                "title": "Operating Systems",
+                "subtitle": "EECS 482",
+                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "dates": "Winter 2020"
+            },
+            {
+                "title": "Data Structures and Algorithms",
+                "subtitle": "EECS 281",
+                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "dates": "Fall 2019"
+            },
+            {
+                "title": "Computer Organization",
+                "subtitle": "EECS 370",
+                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "dates": "Fall 2019"
+            },
+            {
+                "title": "Abstract Algebra",
+                "subtitle": "Math 412",
+                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "dates": "Winter 2020"
             }
         ]
     },
@@ -32,6 +72,12 @@
                 "subtitle": "Web Games",
                 "text":"Some quick example text to build on the card title and make up the bulk of the card's content.",
                 "link": "https://codenames.co"
+            },
+            {
+                "title": "EngageMe",
+                "subtitle": "Chrome Extension",
+                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link": "https://bit.ly/Engage-Me"
             }
         ]
     },
@@ -42,6 +88,12 @@
                 "subtitle": "Consulting Club",
                 "text": "Consulted for nonprofit microfinance company and Russian fast mover consumer goods company",
                 "dates": "January 2020 - Present"
+            },
+            {
+                "title": "Solar Car",
+                "subtitle": "Software Team",
+                "text": "Consulted for nonprofit microfinance company and Russian fast mover consumer goods company",
+                "dates": "September 2018 - May 2019"
             }
         ]
     }

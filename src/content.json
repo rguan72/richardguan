@@ -4,7 +4,7 @@
             {
                 "title": "University of Michigan",
                 "subtitle": "B.S.E Computer Science, '22",
-                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "text": "3.91 GPA, University Honors, Dean's List",
                 "dates": "September 2018 - Present"
             }
         ]
@@ -14,25 +14,25 @@
             { 
                 "title": "Uber",
                 "subtitle": "Software Engineering Intern",
-                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "text": " Launching personalization based on user food preference data to shortcuts feature on Uber Eats Home page so users can navigate to their most used places in app with one tap.",
                 "dates": "May 2020 - August 2020"
             },
             {
                 "title": "Kare",
                 "subtitle": "Co-Founder & Director of Engineering",
-                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "text": "Created a social media application in a wellness vertical in React Native, complete with online groups for college students to discuss topics and do daily wellness exercises together. Launched to iOS App Store with over 100 users.",
                 "dates": "March 2020 - Present"
             },
             {
                 "title": "Larky",
                 "subtitle": "Software Engineering Intern",
-                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "text": "Implemented functionality for users to edit scheduled push notifications on a React dashboard after creation.  Led full stack (Node.js, React.js, Android) development of suppressed notifications feature, an urgent client request.",
                 "dates": "May 2019 - August 2019"
             },
             {
                 "title": "Crowds and Machines Lab",
                 "subtitle": "Undergraduate Researcher",
-                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "text": "Conducted research to develop tools for students to write more readable code.",
                 "dates": "March 2019 - January 2020"
             }
         ]
@@ -42,25 +42,25 @@
             {
                 "title": "Operating Systems",
                 "subtitle": "EECS 482",
-                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "text": "Operating System implementation and design. Made a multi-cpu threading library with mutex locks and conditional variables, a virtual pager, and a network file system.",
                 "dates": "Winter 2020"
             },
             {
                 "title": "Data Structures and Algorithms",
                 "subtitle": "EECS 281",
-                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "text": "Fundamentals of data structures and algorithms including stacks, queues, hash tables, trees, graphs, greedy algorithm, divide and conquer, and dynamic programming. Finished projects involving DFS/BFS, priority queues, hash tables, and backtracking.",
                 "dates": "Fall 2019"
             },
             {
                 "title": "Computer Organization",
                 "subtitle": "EECS 370",
-                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "text": "opics include datapath, pipelining, caches, virtual memory.",
                 "dates": "Fall 2019"
             },
             {
                 "title": "Abstract Algebra",
                 "subtitle": "Math 412",
-                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "text": "Topics include modular arithmetic, polynomials, rings, and groups.",
                 "dates": "Winter 2020"
             }
         ]
@@ -69,15 +69,27 @@
         "Projects": [
             {
                 "title": "Codenames",
-                "subtitle": "Web Games",
-                "text":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "subtitle": "Web Game",
+                "text":"An online version of the popular card game, Codenames. Built with React.js and Firebase Cloud Firestore.",
                 "link": "https://codenames.co"
             },
             {
                 "title": "EngageMe",
                 "subtitle": "Chrome Extension",
-                "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "text": "Second place winner of Best Use of Google Cloud at MHacks 12! A chrome extension that tracks and aggregates video engagement data for YouTube videos and lecture recordings in order to display over the watch bar the most interesting parts of a video for new viewers.",
                 "link": "https://bit.ly/Engage-Me"
+            },
+            {
+                "title": "Storeback",
+                "subtitle": "Web API",
+                "text": "Serves as the back end for online stores built with Flask and SQLAlchemy. Manages sign in/sign out, users, carts, and inventory for online stores.",
+                "link": "https://rguan72.github.io/StoreBack-Landing-Page/"
+            },
+            {
+                "title": "SnapCal",
+                "subtitle": "Web App",
+                "text": "When users take pictures of fliers with SnapCal, the text is extracted using Google Cloud Vision API and any flier events are automatically added to the user's Google Calendar.",
+                "link": "https://snapcal.richardguan.me"
             }
         ]
     },
@@ -86,13 +98,19 @@
             {
                 "title": "180 Degrees Consulting",
                 "subtitle": "Consulting Club",
-                "text": "Consulted for nonprofit microfinance company and Russian fast mover consumer goods company",
+                "text": "Consulted for nonprofit microfinance company and Russian fast mover consumer goods company.",
                 "dates": "January 2020 - Present"
             },
             {
                 "title": "Solar Car",
                 "subtitle": "Software Team",
-                "text": "Consulted for nonprofit microfinance company and Russian fast mover consumer goods company",
+                "text": "Built rooms functionality for team World Solar Challenge real-time racing simulator.",
+                "dates": "September 2018 - February 2019"
+            },
+            {
+                "title": "MPowered",
+                "subtitle": "Software Team",
+                "text": "Marketed and ran a pitch component for high schoolers.",
                 "dates": "September 2018 - May 2019"
             }
         ]

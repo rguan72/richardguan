@@ -89,7 +89,6 @@
                 "title": "SnapCal",
                 "subtitle": "Web App",
                 "text": "When users take pictures of fliers with SnapCal, the text is extracted using Google Cloud Vision API and any flier events are automatically added to the user's Google Calendar.",
-                "link": "https://snapcal.richardguan.me"
             }
         ]
     },

@@ -15,7 +15,7 @@ function App() {
   const contentJSX = content.default.map((section) => {
     const sectionName = Object.keys(section)[0]
     const sectionCards = section[sectionName].map((item) => 
-      <Card className="mb-3 cardDesktop">
+      <Card key={item.title} className="mb-3 cardDesktop">
         <Card.Body>
           <Card.Title>{item.title}</Card.Title>
           <Card.Subtitle className="text-muted">
@@ -55,7 +55,7 @@ function App() {
         <Card style={{ borderWidth: 0 }}>
           <Card.Body style={{ paddingLeft: 0}}>
             <Card.Text>
-              Hi, I'm <strong>Richard</strong>! I'm a junior Computer Science major at the University of Michigan and a fungi.
+              Hi, I'm <strong>Richard</strong>! I'm a junior Computer Science major at the University of Michigan and a fungi. Check out my resume <a href="https://bit.ly/richard-guan-resume">here</a>.
             </Card.Text>
           </Card.Body>
         </Card>

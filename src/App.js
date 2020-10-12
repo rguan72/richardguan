@@ -55,7 +55,7 @@ function App() {
         <Card style={{ borderWidth: 0 }}>
           <Card.Body style={{ paddingLeft: 0}}>
             <Card.Text>
-              Hi, I'm <strong>Richard</strong>! I'm a junior Computer Science major at the University of Michigan and a fungi. Check out my resume <a href="https://bit.ly/richard-guan-resume">here</a>.
+              Hi, I'm <strong>Richard</strong>! I'm a junior Computer Science major at the University of Michigan and a fungi. Check out this <a href="https://michiganvotingquiz.org">project on voting in Michigan here</a>.
             </Card.Text>
           </Card.Body>
         </Card>

@@ -80,12 +80,6 @@
                 "link": "https://bit.ly/Engage-Me"
             },
             {
-                "title": "Sports Classifier",
-                "subtitle": "Web App",
-                "text": "Machine Learning classifier built with fastai library to classify tennis vs ping pong vs squash.",
-                "link": "https://sports-classifier-ax16.onrender.com/"
-            },
-            {
                 "title": "Storeback",
                 "subtitle": "Web API",
                 "text": "Serves as the back end for online stores built with Flask and SQLAlchemy. Manages sign in/sign out, users, carts, and inventory for online stores.",

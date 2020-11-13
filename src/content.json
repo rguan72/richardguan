@@ -11,10 +11,22 @@
     },
     {
         "Work Experience": [
+            {
+                "title": "Citadel",
+                "subtitle": "Incoming Software Engineering Intern",
+                "text": "Joining Fall 2021",
+                "dates": "September 2021 - December 2021"
+            },
+            {
+                "title": "Nuro",
+                "subtitle": "Incoming Software Engineering Intern",
+                "text": "Core Infrastructure - Platforms team",
+                "dates": "May 2021 - August 2021"
+            },
             { 
                 "title": "Uber",
                 "subtitle": "Software Engineering Intern",
-                "text": " Launching personalization based on user food preference data to shortcuts feature on Uber Eats Home page so users can navigate to their most used places in app with one tap.",
+                "text": "Launching personalization based on user food preference data to shortcuts feature on Uber Eats Home page so users can navigate to their most used places in app with one tap.",
                 "dates": "May 2020 - August 2020"
             },
             {
@@ -46,6 +58,18 @@
                 "dates": "Winter 2020"
             },
             {
+                "title": "Machine Learning",
+                "subtitle": "EECS 445",
+                "text": "Created a CNN to classify clothing pictures and used n-grams to perform sentiment analysis on Yelp reviews. Machine Learning algorithm theory and projects, including perceptron, SVM, random forests, neural networks, and clustering.",
+                "dates": "Fall 2020"
+            },
+            {
+                "title": "Algorithms",
+                "subtitle": "EECS 477",
+                "text": "In-depth analysis and implementation of algorithms, including divide and conquer, fast fourier transform, dynamic programming, fibonacci heaps, hashing, DFS/BFS, min flow max cut, and linear programming.",
+                "dates": "Fall 2020"
+            },
+            {
                 "title": "Data Structures and Algorithms",
                 "subtitle": "EECS 281",
                 "text": "Fundamentals of data structures and algorithms including stacks, queues, hash tables, trees, graphs, greedy algorithm, divide and conquer, and dynamic programming. Finished projects involving DFS/BFS, priority queues, hash tables, and backtracking.",
@@ -67,6 +91,12 @@
     },
     {
         "Projects": [
+            {
+                "title": "Michigan Voting Quiz",
+                "subtitle": "Educational Quiz",
+                "text":"A quick quiz to communicate key information about voting in Michigan. Played 200+ times.",
+                "link": "https://michiganvotingquiz.org"
+            },
             {
                 "title": "Codenames",
                 "subtitle": "Web Game",

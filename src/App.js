@@ -4,7 +4,7 @@ import * as content from "./content.json"
 import Container from "react-bootstrap/Container"
 import Image from "react-bootstrap/Image";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Richard from "./Richard.jpg"
+import Richard from "./Richard.webp"
 import linkedin from "./linkedin.png"
 import envelope from "./envelope.png"
 import github from "./github.png"
@@ -55,7 +55,7 @@ function App() {
         <Card style={{ borderWidth: 0 }}>
           <Card.Body style={{ paddingLeft: 0}}>
             <Card.Text>
-              Hi, I'm <strong>Richard</strong>! I'm a junior Computer Science major at the University of Michigan and a fungi. Check out this <a href="https://michiganvotingquiz.org">project on voting in Michigan here</a>.
+              Hi, I'm <strong>Richard</strong>! I'm a junior Computer Science major at the University of Michigan and a fungi.
             </Card.Text>
           </Card.Body>
         </Card>

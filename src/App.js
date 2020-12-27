@@ -4,7 +4,7 @@ import * as content from "./content.json"
 import Container from "react-bootstrap/Container"
 import Image from "react-bootstrap/Image";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Richard from "./Richard.webp"
+import Richard from "./Richard.jpg"
 import linkedin from "./linkedin.png"
 import envelope from "./envelope.png"
 import github from "./github.png"

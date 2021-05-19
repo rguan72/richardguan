@@ -58,6 +58,13 @@
                 "dates": "Winter 2020"
             },
             {
+                "title": "Computer Vision",
+                "subtitle": "EECS 442",
+                "text": "Classical methods for computer vision (camera calibration, homography) and deep learning methods for computer vision. Created a tool that estimates physical distance traveled of a person from a smartphone video.",
+                "link": "https://bit.ly/ballerstats",
+                "dates": "Winter 2021"
+            },
+            {
                 "title": "Machine Learning",
                 "subtitle": "EECS 445",
                 "text": "Created a CNN to classify clothing pictures and used n-grams to perform sentiment analysis on Yelp reviews. Machine Learning algorithm theory and projects, including perceptron, SVM, random forests, neural networks, and clustering.",
@@ -80,6 +87,12 @@
                 "subtitle": "EECS 370",
                 "text": "opics include datapath, pipelining, caches, virtual memory.",
                 "dates": "Fall 2019"
+            },
+            {
+                "title": "Elementary Analysis",
+                "subtitle": "Math 451",
+                "text": "Proving the foundations of calculus on the real line.",
+                "dates": "Winter 2021"
             },
             {
                 "title": "Abstract Algebra",

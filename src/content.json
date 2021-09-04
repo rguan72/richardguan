@@ -14,19 +14,19 @@
             {
                 "title": "Citadel",
                 "subtitle": "Incoming Software Engineering Intern",
-                "text": "Joining Fall 2021",
+                "text": "Citadel Execution Services team.",
                 "dates": "September 2021 - December 2021"
             },
             {
                 "title": "Nuro",
-                "subtitle": "Incoming Software Engineering Intern",
-                "text": "Core Infrastructure - Platforms team",
+                "subtitle": "Software Engineering Intern",
+                "text": "Reduced time to clone Git monorepo from 10 minutes to 1.5 minutes. Made bazel builds 10% faster and immune to missing external dependencies.",
                 "dates": "May 2021 - August 2021"
             },
             { 
                 "title": "Uber",
                 "subtitle": "Software Engineering Intern",
-                "text": "Launching personalization based on user food preference data to shortcuts feature on Uber Eats Home page so users can navigate to their most used places in app with one tap.",
+                "text": "Launched personalization based on user food preference data to shortcuts feature on Uber Eats Home page so users can navigate to their most used places in app with one tap.",
                 "dates": "May 2020 - August 2020"
             },
             {

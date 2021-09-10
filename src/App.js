@@ -8,6 +8,7 @@ import Richard from "./Richard.jpg"
 import linkedin from "./linkedin.png"
 import envelope from "./envelope.png"
 import github from "./github.png"
+import resume from "./richard_guan.pdf"
 import './App.css';
 
 function App() {
@@ -55,7 +56,7 @@ function App() {
         <Card style={{ borderWidth: 0 }}>
           <Card.Body style={{ paddingLeft: 0}}>
             <Card.Text>
-              Hi, I'm <strong>Richard</strong>! I'm a junior Computer Science major at the University of Michigan and a fungi.
+              Hi, I'm <strong>Richard</strong>! I'm a junior Computer Science major at the University of Michigan and a fungi. Check out my <a href={resume}>resume</a>.
             </Card.Text>
           </Card.Body>
         </Card>

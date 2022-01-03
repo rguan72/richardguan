@@ -12,8 +12,13 @@
     {
         "Work Experience": [
             {
+                "title": "Parafin",
+                "subtitle": "Incoming Software Engineer",
+                "dates": "December 2021 - Present"
+            },
+            {
                 "title": "Citadel",
-                "subtitle": "Incoming Software Engineering Intern",
+                "subtitle": "Software Engineering Intern",
                 "text": "Citadel Execution Services team.",
                 "dates": "September 2021 - December 2021"
             },
